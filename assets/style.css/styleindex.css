@@ -18,8 +18,7 @@ body {
     
 }
 button  {
-    position: relative;
-    top: -400px;
+    align-items: center;
     padding: 10px 20px;
     font-size: 48px;
     cursor: pointer;
