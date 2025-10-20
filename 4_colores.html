@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>4 Colores</title>
+</head>
+
+<body>
+
+    <div id="divAzul" style="width:200px; height:200px; background-color:blue; display:inline-block; margin:10px;">
+    </div>
+    <div id="divRojo" style="width:200px; height:200px; background-color:red; display:inline-block; margin:10px;"></div>
+    <div id="divVerde" style="width:200px; height:200px; background-color:green; display:inline-block; margin:10px;">
+    </div>
+    <div id="divAmarillo"
+        style="width:200px; height:200px; background-color:yellow; display:inline-block; margin:10px;"></div>
+
+    <script>
+
+        const divs = document.querySelectorAll("div");
+
+        const cambiarANegro = (event) => {
+            event.target.style.backgroundColor = 'black';
+        };
+
+        divs.forEach(div => div.addEventListener("click", cambiarANegro));
+
+    </script>
+</body>
+
+</html>
